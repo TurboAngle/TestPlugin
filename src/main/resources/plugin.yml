@@ -1,0 +1,6 @@
+name: TestPlugin
+version: '0.0.0'
+main: net.turboangle.testplugin.Main
+api-version: '26.1.2'
+author: TurboAngle-Developer
+description: A test plugin for learn.
