@@ -1,14 +1,11 @@
 # Compiled class file
 *.class
 
-# Log file
+# Log files
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Blueprints
+*.blueprint
 
 # Package Files #
 *.jar
@@ -19,6 +16,14 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Gradle files (Exclude local caches and build outputs)
+.gradle/
+build/
+
+# IntelliJ IDEA files (Exclude IDE specific configurations)
+.idea/
+*.iml
+*.iws
+
+# MacOS files
+.DS_Store
