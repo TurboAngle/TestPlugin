@@ -48,7 +48,7 @@ version = "0.0.0"
 
 // ===== Custom Deploy Configurations =====
 val pluginName = project.name
-val targetDirFile = file("C:/Users/taika/mcss/servers/rel_test/plugins")
+val targetDirFile = file("C:/Users/taika/Documents")
 
 tasks.jar {
     // Removed the build number variable, naming it standard plugin-version.jar
